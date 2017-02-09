@@ -1,0 +1,35 @@
+:focus {
+	outline: none;
+}
+
+td .btn {
+	margin: 0 0 0 1em;
+}
+
+td:last-child {
+	text-align: right;
+}
+
+.btn-negative {
+	opacity: 0;
+	visibility: hidden;
+	background-color: #c12121;
+	transition: opacity 250ms visibility 250ms;
+}
+
+tr:hover .btn-negative {
+	opacity: 1;
+	visibility: visible;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.user-list {
+	display: none;
+}
+
+.show {
+	display: block;
+}

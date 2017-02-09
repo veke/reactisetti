@@ -1,0 +1,19 @@
+{
+  "name": "reactisetti",
+  "description": "",
+  "main": "",
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/assets/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "siimple": "^1.3.7"
+  }
+}
